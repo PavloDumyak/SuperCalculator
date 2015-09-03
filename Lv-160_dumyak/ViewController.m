@@ -151,11 +151,11 @@
     CalcBrain *singleObCalcBrain = [CalcBrain singletonCalcBrain];
     if(singleObCalcBrain.numberOfArythmeticalOperation<9)
     {
-        if(!([sender tag]==10||[sender tag]==11||[sender tag]==12||[sender tag]==13||[sender tag]==100)){
+        if(!([sender tag]==10||[sender tag]==11||[sender tag]==12||[sender tag]==13||[sender tag]==100||[sender tag]==89||[sender tag]==90)){
             mainDisplay.text = [singleObCalcBrain setTmpDataString:[sender tag]];}
     }
     else
-    { if(!([sender tag]==10||[sender tag]==11||[sender tag]==12||[sender tag]==13||[sender tag]==100)){
+    { if(!([sender tag]==10||[sender tag]==11||[sender tag]==12||[sender tag]==13||[sender tag]==100||[sender tag]==89||[sender tag]==90)){
          mainDisplay.text = [singleObCalcBrain setTmpDataString2:[sender tag]];
     }
     }
@@ -186,10 +186,18 @@
             case 13:
                  tmp=@"/";
                 break;
+            case 89:
+                tmp=@"(";
+                break;
+            case 90:
+                tmp=@")";
+                break;
+                
+                
             case 100:
                 ob = [[SuperCalc alloc]init];
                 new = [NSScanner scannerWithString:formula];
-               res1=[ob calculateRecursiveFunction:new];
+               //res1=[ob calculateRecursiveFunction:new];
                 res2=[ob calculateSubResult:formula];
                 formula = @" ";
                 if(res1!=res2){
@@ -197,8 +205,8 @@
                     mainDisplay.text = tmp;
                 }
                 else{
-                    tmp = [NSString stringWithFormat:@"%f",res1];
-                    mainDisplay.text = tmp;
+                   tmp = [NSString stringWithFormat:@"%f",res1];
+                   mainDisplay.text = tmp;
                 }
                 
                 break;

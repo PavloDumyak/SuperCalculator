@@ -250,6 +250,26 @@
                                     <action selector="setDigit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BZM-jk-ApV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="89" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7d-RY-hql">
+                                <rect key="frame" x="86" y="339" width="60" height="40"/>
+                                <color key="backgroundColor" red="0.40260169039999999" green="0.99120424679999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="(">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="setDigit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aUa-yP-nRq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="90" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tdr-gY-HPu">
+                                <rect key="frame" x="154" y="339" width="60" height="40"/>
+                                <color key="backgroundColor" red="0.40260169039999999" green="0.99120424679999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title=")">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="setDigit:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EPv-FR-pwZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
