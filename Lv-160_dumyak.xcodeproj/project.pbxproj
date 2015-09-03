@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846240D21B98F89D00A1EFC7 /* SuperCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 846240D11B98F89D00A1EFC7 /* SuperCalc.m */; };
 		84B5B9411B91C364002DDF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B9401B91C364002DDF8A /* main.m */; };
 		84B5B9441B91C364002DDF8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B9431B91C364002DDF8A /* AppDelegate.m */; };
-		84B5B9471B91C364002DDF8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B9461B91C364002DDF8A /* ViewController.m */; };
 		84B5B94A1B91C364002DDF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B5B9481B91C364002DDF8A /* Main.storyboard */; };
 		84B5B94C1B91C364002DDF8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B5B94B1B91C364002DDF8A /* Images.xcassets */; };
 		84B5B94F1B91C364002DDF8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B5B94D1B91C364002DDF8A /* LaunchScreen.xib */; };
 		84B5B95B1B91C364002DDF8A /* Lv_160_dumyakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B95A1B91C364002DDF8A /* Lv_160_dumyakTests.m */; };
+		84B5B9691B91C3D4002DDF8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B9671B91C3D4002DDF8A /* ViewController.m */; };
+		84B5B96C1B91E10C002DDF8A /* CalcBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B5B96B1B91E10C002DDF8A /* CalcBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846240D01B98F89D00A1EFC7 /* SuperCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperCalc.h; sourceTree = "<group>"; };
+		846240D11B98F89D00A1EFC7 /* SuperCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperCalc.m; sourceTree = "<group>"; };
 		84B5B93B1B91C364002DDF8A /* Lv-160_dumyak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lv-160_dumyak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B5B93F1B91C364002DDF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B5B9401B91C364002DDF8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84B5B9421B91C364002DDF8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84B5B9431B91C364002DDF8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84B5B9451B91C364002DDF8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84B5B9461B91C364002DDF8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84B5B9491B91C364002DDF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B5B94B1B91C364002DDF8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84B5B94E1B91C364002DDF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84B5B9541B91C364002DDF8A /* Lv-160_dumyakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lv-160_dumyakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B5B9591B91C364002DDF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B5B95A1B91C364002DDF8A /* Lv_160_dumyakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lv_160_dumyakTests.m; sourceTree = "<group>"; };
+		84B5B9661B91C3D4002DDF8A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B5B9671B91C3D4002DDF8A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B5B96A1B91E10C002DDF8A /* CalcBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcBrain.h; sourceTree = "<group>"; };
+		84B5B96B1B91E10C002DDF8A /* CalcBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,14 @@
 		84B5B93D1B91C364002DDF8A /* Lv-160_dumyak */ = {
 			isa = PBXGroup;
 			children = (
+				846240D01B98F89D00A1EFC7 /* SuperCalc.h */,
+				846240D11B98F89D00A1EFC7 /* SuperCalc.m */,
+				84B5B96A1B91E10C002DDF8A /* CalcBrain.h */,
+				84B5B96B1B91E10C002DDF8A /* CalcBrain.m */,
+				84B5B9661B91C3D4002DDF8A /* ViewController.h */,
+				84B5B9671B91C3D4002DDF8A /* ViewController.m */,
 				84B5B9421B91C364002DDF8A /* AppDelegate.h */,
 				84B5B9431B91C364002DDF8A /* AppDelegate.m */,
-				84B5B9451B91C364002DDF8A /* ViewController.h */,
-				84B5B9461B91C364002DDF8A /* ViewController.m */,
 				84B5B9481B91C364002DDF8A /* Main.storyboard */,
 				84B5B94B1B91C364002DDF8A /* Images.xcassets */,
 				84B5B94D1B91C364002DDF8A /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B5B9471B91C364002DDF8A /* ViewController.m in Sources */,
 				84B5B9441B91C364002DDF8A /* AppDelegate.m in Sources */,
+				84B5B96C1B91E10C002DDF8A /* CalcBrain.m in Sources */,
+				846240D21B98F89D00A1EFC7 /* SuperCalc.m in Sources */,
+				84B5B9691B91C3D4002DDF8A /* ViewController.m in Sources */,
 				84B5B9411B91C364002DDF8A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				84B5B9601B91C364002DDF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84B5B9611B91C364002DDF8A /* Build configuration list for PBXNativeTarget "Lv-160_dumyakTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				84B5B9631B91C364002DDF8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
